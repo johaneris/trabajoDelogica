@@ -7,7 +7,7 @@ muestra la matriz resultante. */
 using namespace std;
 
 int main() {
-    int filas1, columnas1; 
+    int filas1, columnas1;  
     int filas2, columnas2; 
 
    
@@ -50,7 +50,7 @@ int main() {
         }
     }
 
-    cout << "La matriz resultante de la multiplicación es:" << endl;
+    cout << "La matriz resultante de la multiplicacion es:" << endl;
     for (int i = 0; i < filas1; i++) {
         for (int j = 0; j < columnas2; j++) {
             cout << matrizFinal[i][j] << " ";
